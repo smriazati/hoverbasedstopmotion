@@ -1,10 +1,10 @@
-int counter = 29; // number of images, would be cooler if it could count the folder
+int counter = 20; // number of images, would be cooler if it could count the folder
 PImage[] imgs = new PImage[counter]; // declary the array, create 20 spots
 
 int windowWidth = 800;
 
 void setup() {
-  size(800,600);
+  size(800,600); // can't use variables here
   background(0);
 
   // load an array of images named photo*.jpg
@@ -27,7 +27,6 @@ void draw() {
       k = i; // continue the loop, but save i's prev value to remember the left side of the band
       //println(imgs[i]);
       //println(mouse);
-      tint(200);
     }
   }
 }
