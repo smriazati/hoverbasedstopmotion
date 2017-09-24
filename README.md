@@ -2,6 +2,7 @@
 
 Move the mouse horizontally to show different pictures.
 
+<a href="https://www.youtube.com/watch?v=0YpIhpSlIvY">Watch a demo video of the interaction.</a>
 
 I used this diagram to figure out how to split the screen into horizontal "bands".
 <img src="diagram1.jpg" />
@@ -25,3 +26,4 @@ Here's a rough sketch of the program. See the code for the working version!
 			// show image i
 		}
 		k = i; // set k to i	}```
+
